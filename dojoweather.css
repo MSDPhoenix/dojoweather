@@ -4,12 +4,10 @@
     padding:0px;
     box-sizing: border-box;
     vertical-align: top;
-    outline: red 1px dotted;
     font-size: 1.8vw;
     font-family: 'Balsamiq Sans', cursive;
 }
 #header {
-    margin-top:110px;           /* remove this later */
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +31,6 @@ h3, h3 span {
     text-align:center;
     display:flex;
     justify-content: space-evenly;
-
 }
 
 #container {
@@ -55,6 +52,9 @@ select {
     height:3.8vw;
     margin-left:1vw;
 }
+option {
+    /* border:2px black solid; */
+}
 #title span {
     display:flex;
     align-items:center;
@@ -62,7 +62,6 @@ select {
 #content {
     display:flex;
     justify-content: space-between;
-    
 }
 .day {
     background-color:#EEEEEE;
@@ -72,8 +71,6 @@ select {
     flex-direction: column;
     justify-content: space-evenly;
     align-items:center;
-
-
 }
 img {
     width:75%;
@@ -84,4 +81,36 @@ img {
 }
 .blue {
     color:#2A78E4;
+}
+/* COOKIE DIV */
+#cookie_div {
+    margin: 1vw 12vw;
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    border:2px solid black;
+    background-color:#EEEEEE;
+    position:fixed;
+    top:51vw;
+    width:76%;
+}
+#cookie_div img {
+    height:7vw;
+    width:7vw;
+    margin:2.5vw;
+}
+#cookie_div span {
+    display:inline-block;
+    width:50vw;
+}
+#cookie_div h3 {
+    width:max-content;
+    padding:.5vw 0vw;
+}
+#cookie_div button {
+    background-color: #A0C5F8;
+    padding:.5vw 1vw;
+    border:2px solid black;
+    box-shadow: 5px 5px  black;
+    margin: auto;
 }
